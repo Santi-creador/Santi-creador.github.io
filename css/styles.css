@@ -1,0 +1,96 @@
+body{
+   color: aliceblue;
+}
+
+header{
+   background-color: dodgerblue;
+   height: 130px;
+   position: relative;
+}
+
+.contenedor_limite{
+   background-color: aqua;
+   max-width: 70%;
+   margin: 0 auto;
+}
+
+.card{
+   background-color: red;
+   width: 200px;
+   border: 5px solid lightblue;
+   padding: 10px;
+   text-align: center;
+   margin: 0 auto;
+   border-radius: 20px
+}
+
+img{
+   max-width: 75%;
+   border-radius: 15px;
+}
+
+section{ /*selector etiqueta*/
+   margin: 10px;
+}
+
+nav{
+   position: absolute;
+   right: 50px;
+}
+
+nav li{
+   display: inline;
+}
+
+nav a{
+   color: black;
+}
+
+h1{ /*selector etiqueta*/
+   position: absolute;
+   left: 15px;
+   color: red;
+   text-align: center;
+   font-size: 30px;
+   font-family: cursive;
+    font-weight: 300;
+    font-style: normal;
+    height: 35px;
+}
+
+h3{/*selector etiqueta*/
+   color: aqua;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+p{
+   color:black;
+}
+
+h5{
+   left: 15px;
+   color: red;
+   text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    height: 5px
+}
+
+ul{/*selector etiqueta*/
+   color: black;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    font-style: oblique;
+    max-width: 1500px;
+}
+
+footer{
+   background-color: dodgerblue;
+}
