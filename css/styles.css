@@ -1,44 +1,56 @@
 body{
-   color: aliceblue;
+   background-color: lightskyblue;
 }
 
 header{
-   background-color: dodgerblue;
+   background-color: lightpink;
    height: 130px;
    position: relative;
 }
 
 .contenedor_limite{
-   background-color: aqua;
-   max-width: 70%;
-   margin: 0 auto;
+   max-width: 600%;
+   margin: 10px;
+}
+
+.contenedor_padre{
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 
 .card{
-   background-color: red;
-   width: 200px;
-   border: 5px solid lightblue;
-   padding: 10px;
+   background-color: lightgreen;
+   width: 300px;
+   border: 5px solid white;
+   padding: 10px
+   border-radius: 25px;
    text-align: center;
-   margin: 0 auto;
-   border-radius: 20px
+   margin: 5px
+}
+
+.card:hover{
+   background-color: lightcoral;
 }
 
 img{
-   max-width: 75%;
-   border-radius: 15px;
+   max-width: 60%;
+   margin-top: 20px;
+   border-radius: 20px;
 }
 
-section{ /*selector etiqueta*/
-   margin: 10px;
+section{ 
 }
 
 nav{
    position: absolute;
-   right: 50px;
+   left: 0px;
+   top: 50px;
+
 }
 
 nav li{
+   list-style: none;
    display: inline;
 }
 
@@ -46,20 +58,29 @@ nav a{
    color: black;
 }
 
+nav a:hover{
+   color: white;
+   text-decoration: underline;
+}
+
+
+
 h1{ /*selector etiqueta*/
    position: absolute;
    left: 15px;
    color: red;
    text-align: center;
-   font-size: 30px;
+   font-size: 23px;
    font-family: cursive;
     font-weight: 300;
     font-style: normal;
     height: 35px;
+    top: 20px;
+    left: 15px;
 }
 
 h3{/*selector etiqueta*/
-   color: aqua;
+   color: black;
     text-align: center;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -68,7 +89,9 @@ h3{/*selector etiqueta*/
 }
 
 p{
-   color:black;
+   color: dodgerblue;
+   font-size: 20px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h5{
@@ -89,8 +112,19 @@ ul{/*selector etiqueta*/
     font-weight: 500;
     font-style: oblique;
     max-width: 1500px;
+    list-style: none;
+    text-align: center;
+}
+
+ul:hover{
+   color: dodgerblue;
+   text-decoration: underline;
 }
 
 footer{
-   background-color: dodgerblue;
+   background-color: lightpink;
+}
+
+@media screen and (max-width:600px){
+
 }
